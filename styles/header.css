@@ -23,7 +23,27 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vw;
 }
 .container__botão:checked ~ .lista-menu {
   display: block;
+}
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--banner-cor);
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lista-menu__link{
+    background:var(--azul-degrade);
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-transform: uppercase;
+}
+.container__botão{
+    display: none;
 }
